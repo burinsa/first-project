@@ -6,7 +6,67 @@
 a {
     text-decoration: none;
 }
-
-ul {
+li {
     list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+.heder__logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}
+
+nav {
+   margin-top: 56px;
+   margin-left: 29%; 
+}
+
+.topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 18px; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1010px) {
+     .topnav a{
+         display: none;
+     }
+     .topnav a.icon {
+         float: right;
+         margin-top: -17px;
+         display: block;
+         color: #fff;
+     }
 }
