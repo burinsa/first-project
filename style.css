@@ -14,10 +14,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 header {
+    position: relative;
     width: 100%;
     background: #000;
     display: flex;
 }
+
 .heder__logo {
     text-transform: uppercase;
     color: #fff;
@@ -69,6 +71,7 @@ main .main__welcome p {
 main .main__welcome h1 {
     color: #999999;
     font-size: 44px;
+    font-weight:normal;
 }
 
 .mycompany {
@@ -94,6 +97,47 @@ main .main__about {
     border-bottom: 3px solid #fcac45;
     padding-bottom: 20px;
 }
+
+.about__right p {
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
+
+.about__right li {
+    background: url(img/marc.png) 0px no-repeat;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.mw-100 {
+    min-width: 100%;
+}
+
+.main__team {
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.main__team h1 {
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    position: relative;
+    left: 45.5%;
+    margin-bottom: 105px;
+}
+
+
+
+
+
 
 
 
@@ -146,4 +190,35 @@ main .main__about {
         display: block;
         text-align: left;
     }
+
+
+
+
+
+   main .main__welcome {
+       padding: 50px 0 50px 0;
+   }
+   main .main__welcome p {
+       font-size: 14px;
+   }
+   main .main__welcome h1 {
+       font-size: 25px;
+   }
+   .mw-100 {
+    max-width: 100%;
+   }
+   .main__about {
+       flex-direction: column;
+   }
+   .about__right {
+       text-align: center;
+       margin-left: 0;
+   }
+   .about__right li {
+       text-align: left;
+   }
+   .about__right h1 {
+       margin-top: 10px;
+       font-size: 20px;
+   }
 }
