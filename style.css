@@ -208,6 +208,22 @@ main .main__about {
     margin-left: 30px;
 }
 
+.main__testimonials {
+    background: #000;
+    padding: 100px 0 170px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.main__testimonials h1 {
+    margin-bottom: 30px;
+}
+
+.main__testimonials .testimonials {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
 
 
 
