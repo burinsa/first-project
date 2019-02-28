@@ -254,7 +254,7 @@ main .main__about {
     padding: 100px 0 100px 0;
 }
 
-.contact__form h1, p {
+.contact__form h1, p{
     text-align: center;
    
 }
@@ -264,13 +264,27 @@ main .main__about {
     margin: 0 auto;
     color: #6c6c6c;
 }
-
 .red {
     color: red;
 }
 
 .contact__form h1 {
     color: #000;
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+
+.contact__form .line {
+    left: 43.8%;
+}
+
+form p {
+    text-align: left;
+}
+
+.form__inputs {
+    margin-top: 100px;
+    display: flex;
 }
 
 input {
@@ -279,29 +293,25 @@ input {
     font-size: 20px;
     margin-bottom: 30px;
 }
-.form__inputs {
-    margin-top: 100px;
-    display: flex;
+
+input:first-of-type {
+    margin-right: 28px;
 }
 
 textarea {
     width: 100%;
     height: 163px;
 }
-
-input:first-of-type {
-    margin-right: 28px;
-}
-
 input, textarea {
-    margin-top: 5px;
     border: 1px solid #999999;
+    margin-top: 5px;
 }
 
 .button__block {
     display: flex;
     justify-content: flex-end;
 }
+
 input[type="submit"] {
     width: 160px;
     height: 40px;
@@ -310,6 +320,8 @@ input[type="submit"] {
     margin-right: 0;
     margin-top: 30px;
 }
+
+
 
 
 
