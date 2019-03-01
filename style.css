@@ -38,12 +38,12 @@ nav {
 .topnav a{
     color: #fff;
     text-align: center;
-    padding: 12px 18px; 
+    padding: 15px 18px; 
     font-size: 14px;
     font-weight: bold;
 }
 
-.topnav a:after {
+.topnav a::before {
     border-bottom: 3px solid #fcac45;
 }
 
@@ -56,6 +56,10 @@ main {
     flex-direction: column;
     width: 100%;
 }
+.main__welcome h1:after {
+    display: none;
+}
+
 
 main .main__welcome {
     background: #000;
@@ -73,6 +77,7 @@ main .main__welcome h1 {
     font-size: 44px;
     font-weight:normal;
 }
+
 
 .mycompany {
     color: #fcac45;
@@ -96,6 +101,9 @@ main .main__about {
     display: inline-block;
     border-bottom: 3px solid #fcac45;
     padding-bottom: 20px;
+}
+.about__right h1:after {
+    display: none;
 }
 
 .about__right p {
@@ -130,14 +138,14 @@ main .main__about {
     padding-bottom: 30px;
 }
 
-.line {
+/*.line {
     width: 100px;
     height: 3px;
     background: #fcac45;
     position: relative;
     left: 45.5%;
     margin-bottom: 85px;
-}
+}*/
 
 .photo {
     background: #d7d7d7;
@@ -274,9 +282,7 @@ main .main__about {
     font-size: 44px;
 }
 
-.contact__form .line {
-    left: 43.8%;
-}
+
 
 form p {
     text-align: left;
@@ -321,6 +327,32 @@ input[type="submit"] {
     margin-top: 30px;
 }
 
+h1::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social img {
+    margin-left: 12px;
+}
+.social img:hover {
+    opacity: 0.6;
+}
 
 
 
